@@ -6,7 +6,7 @@
 
   <artifactId>wutsi-enums</artifactId>
   <groupId>com.wutsi</groupId>
-  <version>1.0.4-SNAPSHOT</version>
+  <version>1.0.7-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>wutsi-enums</name>
@@ -14,7 +14,7 @@
   <properties>
     <jdk.version>11</jdk.version>
 
-    <kotlin.version>1.7.10</kotlin.version>
+    <kotlin.version>1.7.21</kotlin.version>
   </properties>
 
   <dependencies>
