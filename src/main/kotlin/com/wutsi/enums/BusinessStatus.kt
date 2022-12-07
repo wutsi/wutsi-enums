@@ -4,5 +4,5 @@ enum class BusinessStatus {
     UNKNOWN,
     ACTIVE,
     UNDER_REVIEW,
-    SUSPENDED
+    INACTIVE
 }

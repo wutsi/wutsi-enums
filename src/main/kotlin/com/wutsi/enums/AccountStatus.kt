@@ -3,5 +3,5 @@ package com.wutsi.enums
 enum class AccountStatus {
     UNKNOWN,
     ACTIVE,
-    SUSPENDED
+    INACTIVE
 }
