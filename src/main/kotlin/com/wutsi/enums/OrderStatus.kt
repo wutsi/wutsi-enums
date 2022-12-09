@@ -4,7 +4,7 @@ enum class OrderStatus {
     UNKNOWN,
     PENDING,
     OPENED,
-    CLOSED,
+    COMPLETED,
     CANCELLED,
     EXPIRED,
     IN_PROGRESS
