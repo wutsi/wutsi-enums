@@ -1,6 +1,6 @@
 package com.wutsi.enums
 
-enum class EventProvider {
+enum class MeetingProviderType {
     UNKNOWN,
     ZOOM,
     MEET
