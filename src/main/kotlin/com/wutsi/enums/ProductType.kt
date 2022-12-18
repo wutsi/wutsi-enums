@@ -1,9 +1,9 @@
 package com.wutsi.enums
 
-enum class ProductType {
-    UNKNOWN,
-    PHYSICAL_PRODUCT,
-    EVENT,
-    DIGITAL_DOWNLOAD,
-    MEMBERSHIP
+enum class ProductType (val numeric : Boolean){
+    UNKNOWN(false),
+    PHYSICAL_PRODUCT(false),
+    EVENT(true),
+    DIGITAL_DOWNLOAD(true),
+    MEMBERSHIP(true)
 }
