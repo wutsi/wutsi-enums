@@ -5,7 +5,7 @@ enum class ChannelType {
     APP,
     WEB,
     EMAIL,
-    WHATSAPP,
-    CHAT,
-    BLOG
+    SOCIAL,
+    MESSAGING,
+    SEO,
 }
