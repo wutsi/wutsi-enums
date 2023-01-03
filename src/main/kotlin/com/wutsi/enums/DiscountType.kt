@@ -2,7 +2,6 @@ package com.wutsi.enums
 
 enum class DiscountType {
     UNKNOWN,
-    MERCHANT,
+    SALES,
     COUPON,
-    DYNAMIC
 }
