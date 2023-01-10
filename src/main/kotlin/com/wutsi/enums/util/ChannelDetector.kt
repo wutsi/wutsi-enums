@@ -5,7 +5,7 @@ import java.net.URL
 import java.net.URLDecoder
 import java.util.Locale
 
-class ChannelDetector {
+open class ChannelDetector {
     companion object {
         private val SEO_DOMAINS = arrayListOf(
             "google",
@@ -44,7 +44,7 @@ class ChannelDetector {
         )
     }
 
-    fun detect(url: String, referer: String, ua: String): ChannelType {
+    open fun detect(url: String, referer: String, ua: String): ChannelType {
         // APP
         if (ua.contains("(dart:io)", true)) {
             return ChannelType.APP
